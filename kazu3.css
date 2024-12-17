@@ -1,0 +1,164 @@
+body {
+    background-image: url('D.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    margin-top: 50px;
+    min-height: 100vh;
+    background-attachment: fixed;
+    
+}
+.kazu1 {
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: cursive;
+    border-width: 3px;
+    margin-right: 1px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: slideIn 1s ease-out;
+}
+
+.kazu1:hover {
+    background-color: red;
+    transform: translateY(-5px) scale(1.1);
+}
+.kazu2 {
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: cursive;
+    border-width: 3px;
+    margin-right: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: slideIn 1s ease-out;
+}
+
+.kazu2:hover {
+    background-color: red;
+    transform: translateY(-5px) scale(1.1);
+}
+
+.kazu3 {
+    background-color: aqua;
+    color: white;
+    width: 100px;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: cursive;
+    border-width: 3px;
+    margin-right: 200px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: slideIn 1s ease-out;
+}
+
+.kazu3:hover {
+    background-color: red;
+    transform: translateY(-5px) scale(1.1);
+}
+
+.kazu4 {
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: cursive;
+    border-width: 3px;
+    margin-left: 500px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: slideIn 1s ease-out;
+}
+.kazu4:hover {
+    background-color: red; 
+}
+.Meepo {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 50px 4px wheat;
+    width: 800px;
+    height: 400x;
+    border-radius: 40px;
+    backdrop-filter: blur(50px);
+    background-color: transparent;
+    color:lightgreen;
+    justify-content: center;
+    animation: fadeInUp 1s ease-out;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotateOrchid {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateLeshrac {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  .kazu1, .kazu2, .kazu3, .kazu4 {
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kazu1:hover, .kazu2:hover, .kazu3:hover, .kazu4:hover {
+    background-color: red;
+    transform: translateY(-10px) scale(1.1);
+    box-shadow: 0 4px 15px 4px red;
+}
